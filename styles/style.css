@@ -96,31 +96,3 @@ footer p{
     display: none;
 }
 
-@media screen and (max-width: 768px) {
-
-
-    main {
-      
-        background: var(--white-100);
-        width: 100%;
-        align-items: center;
-        
-    }
-    header{
-        width: 100%;
-    }
-
-    .imgOnca{
-        display: block; 
-        width: 100%;
-        
-    }
-    img{
-        width: 100%;
-    }
-
-    li{
-        color: black;
-    }
-}
-

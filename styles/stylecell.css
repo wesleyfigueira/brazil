@@ -1,0 +1,60 @@
+:root{
+    --Green-100: rgb(11,144,26);
+    --Blue-100:rgb(142, 186, 220);
+    --white-100: #fff;
+
+
+}
+
+main {
+      
+    background: var(--white-100);
+    width: 100%;
+    align-items: center;
+    
+}
+
+header{
+    display: block;
+    align-items: center;
+    text-align: center;
+    background: var(--Green-100);
+    height: 6rem;
+   
+    
+}
+header h1{
+    padding-top: 1.5rem;
+    color: white;
+}
+
+.imgOnca{
+    display: block; 
+    width: 100%;
+    
+}
+img{
+    width: 100%;
+}
+
+footer{
+    background:var(--Green-100);
+    padding: 40px;
+    color: white;
+}
+
+footer p{
+    margin-bottom: 10px;
+    text-align: center;
+    width: 100%;
+}
+li{
+    color: black;
+}
+
+
+.weather h2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
