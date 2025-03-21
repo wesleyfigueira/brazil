@@ -5,15 +5,38 @@
 
 
 }
+*{
+    padding: 0;
+    margin: 0;
+    
+}
 
+header{
+    display: block;
+    align-items: center;
+    text-align: center;
+    background: var(--Green-100);
+    height: 6rem;
+    
+}
 main {
       
     background: var(--white-100);
     width: 100%;
     align-items: center;
-    
+    text-align: center;  
+    height: 50rem;  
 }
-
+.weather{
+    text-align: center;
+    align-items: center;
+}
+ul{
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+}
+li
 header{
     display: block;
     align-items: center;
@@ -35,6 +58,19 @@ header h1{
 }
 img{
     width: 100%;
+}
+.box1{
+    margin-top: 8rem;
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+.box2{
+    margin-top: 2rem;
+}
+h2{
+    padding-left: 10rem;
+    padding-bottom: 2rem;
 }
 
 footer{
