@@ -28,7 +28,7 @@ header h1{
 
 
 main{
-    background-image: url("/images/oncaPintada.jpg");
+    background-image: url("./images/oncaPintada.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
